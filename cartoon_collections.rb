@@ -22,4 +22,5 @@ def find_the_cheese(foods)
   foods.each do |food|
     return food if food == cheese_types[0] || food == cheese_types[1] || food == cheese_types[2]
   end
+  return nil
 end
